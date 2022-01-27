@@ -34,9 +34,9 @@ const App = () => {
   );
 };
 
-// export default App;
+export default App;
 
-export default StoryBook;
+// export default StoryBook;
 
 const HomeScreen = (props: any) => {
   const [isLoading, updateLoading] = useState<boolean>(false);
