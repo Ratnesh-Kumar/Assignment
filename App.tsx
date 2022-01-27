@@ -4,6 +4,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import ListArea from './src/ListArea';
 import {createStackNavigator} from '@react-navigation/stack';
 import DetailsScreen from './src/details';
+import StoryBook from './storybook';
 
 const base_api =
   'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=76b3f641640a4884a8a0362b108098dd';
@@ -33,7 +34,9 @@ const App = () => {
   );
 };
 
-export default App;
+// export default App;
+
+export default StoryBook;
 
 const HomeScreen = (props: any) => {
   const [isLoading, updateLoading] = useState<boolean>(false);
